@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_search"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/menu_addPOI"
+        android:title="@string/menu_addPOI"
+        android:icon="@drawable/ic_addpoi"
+        android:enabled="true"
+
+        />
+
+    <item
+        android:id="@+id/menu_type"
+        android:title="@string/menu_type"
+        android:icon="@drawable/ic_type"
+        android:enabled="true"
+
+        />
+
+    <item
+        android:id="@+id/menu_postcode"
+        android:title="@string/menu_postcode"
+        android:icon="@drawable/ic_postcode"
+        android:enabled="true"
+
+        />
+
+</menu>

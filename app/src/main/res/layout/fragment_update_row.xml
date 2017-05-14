@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_background"
+    tools:context="com.example.zain.knowledgetest.UpdateRowActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:adjustViewBounds="true">
+
+        <TextView
+            android:id="@+id/textView_updateRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Edit Location"
+            android:textSize="80dp" />
+
+        <EditText
+            android:id="@+id/editText_name_u"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView_updateRow"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:background="@drawable/rectanglest"
+            android:ems="10"
+            android:gravity="center"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/editText_address_u"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:background="@drawable/rectanglest"
+            android:ems="10"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/editText_name_u"
+            android:layout_alignStart="@+id/editText_name_u" />
+
+        <Spinner
+            android:id="@+id/spinner_postcode_u"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText_address_u"
+            android:layout_below="@+id/editText_address_u"
+            android:layout_marginTop="50dp" />
+
+        <Spinner
+            android:id="@+id/spinner_type_u"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText_address_u"
+            android:layout_alignTop="@+id/spinner_postcode_u" />
+
+        <Button
+            android:id="@+id/updateRow_button"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="87dp"
+            android:background="@drawable/rectanglest"
+            android:gravity="center"
+            android:text="Update"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
